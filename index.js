@@ -1,4 +1,3 @@
-// const iPhone = puppeteer.devices['iPhone 6']
 const puppeteer = require('puppeteer')
 
 const getScreenshot = async username => {
@@ -36,15 +35,3 @@ switch (process.argv[2]) {
 	default:
 		console.log('Wrong argument!')
 }
-
-// ;(async () => {
-
-// 	//await page.screenshot({ path: 'iphone.png' })
-// 	//await page.pdf({ path: 'dev.pdf', format: 'A4' })
-
-// 	const [response] = await Promise.all([
-// 		page.waitForNavigation(),
-// 		page.click('.single-article.big-article a')
-// 	])
-
-// })()
